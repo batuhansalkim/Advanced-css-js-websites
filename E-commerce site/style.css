@@ -95,15 +95,35 @@ body {
 }
 /*Home Page*/
 #hero{
-   background-image: url(img/hero4.png);
-   height: 90vh;
-   width: 100%;
-   background-size: cover;
-   background-position: top 25% right 0;
+  background-image: url(img/hero4.png);
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
+}
+#hero h4{
+  padding-bottom: 15px;
+}
+#hero h1{
+  color: #088178;
 }
 
-
-
+#hero button{
+  background-image: url(img/button.png);
+  background-color: transparent;
+  color: #088178;
+  border: 0;
+  cursor: pointer;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  font-weight: 700;
+  font-size: 15px;
+}
 /*Shop Page*/
 
 
