@@ -48,6 +48,17 @@ p {
 .section-m1 {
   margin: 40px 0;
 }
+button.normal{
+  font-size: 14px;
+  font-weight:600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s;
+}
 
 body {
   width: 100%;
@@ -264,6 +275,9 @@ body {
 }
 #banner h2 span{
   color: #ef3636;
+}
+#banner button:hover{
+  background: #088178;
 }
 /*Shop Page*/
 
