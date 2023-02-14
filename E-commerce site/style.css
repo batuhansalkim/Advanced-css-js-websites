@@ -176,6 +176,19 @@ body {
 #feature .fe-box:nth-child(6) h6{
   background-color: #fff2e5;
 }
+#product1{
+  text-align: center;
+}
+#product1 .pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+}
+#product1 .pro img{
+  width: 100%;
+  border-radius: 20px;
+}
 /*Shop Page*/
 
 
