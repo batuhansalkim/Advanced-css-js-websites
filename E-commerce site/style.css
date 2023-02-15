@@ -279,6 +279,18 @@ body {
 #banner button:hover{
   background: #088178;
 }
+#sm-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#sm-banner .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
 /*Shop Page*/
 
 
