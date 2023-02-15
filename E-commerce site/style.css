@@ -329,6 +329,18 @@ body {
   background: #088178;
   border: 1px solid #088178;
 }
+#banner3 .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(img/banner/b7.jpg);
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
 /*Shop Page*/
 
 
