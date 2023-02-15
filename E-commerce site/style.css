@@ -306,6 +306,12 @@ body {
   font-size: 28px;
   font-weight: 800;
 }
+#sm-banner span{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
 /*Shop Page*/
 
 
