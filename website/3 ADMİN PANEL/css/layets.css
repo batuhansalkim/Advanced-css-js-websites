@@ -14,20 +14,7 @@ header.header{
     justify-content: space-between;
     align-items: center;
 }
-p.count{
-    position: absolute;
-    top: 0;
-    font-size: 10px;
-    color: var(--white-color);
-    background: var(--main-grident);
-    height: 13px;
-    width: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    right: -3px; 
-} 
+
 .logo{
     width: 240px;
     text-align: center;
