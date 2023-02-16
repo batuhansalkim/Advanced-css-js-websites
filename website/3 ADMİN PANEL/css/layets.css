@@ -9,9 +9,7 @@ header.header{
     align-items: center;
     padding: 10px;
 }
-img.icon{
-    width: 20px;
-}
+
 .header-left{
     justify-content: space-between;
     align-items: center;
@@ -49,11 +47,29 @@ p.count{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    right: -3px;
+    right: -3px; 
 } 
 
-
-
+.logo{
+    width: 240px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0;
+    background: var(--main-grident);
+    color: var(--white-color);
+}
+a.sidebarCollapse{
+    padding-left: 14px;
+    color: var(--second-color);
+    font-size: 20px;
+}
+ul.navbar-item{
+    display: flex;
+}
+img.icon{
+    width: 20px;
+}
 
 
 
