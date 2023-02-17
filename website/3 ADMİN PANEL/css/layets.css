@@ -66,23 +66,25 @@ p.count{
     right: -3px; 
 } 
 
-/* p.bg-clc{
-    position: absolute;
-    top: 0;
-    font-size: 10px;
-    color: var(--white-color);
-    background: var(--main-grident);
-    height: 13px;
-    width: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    right: -3px;    
-} */
-
-
-
+.dropdown-menu{
+    z-index: var(--z-fixed);
+    max-width: 15rem;
+    right: -21px;
+    left: auto;
+    min-width: 14rem;
+    padding: 0;
+    border-radius:5px;
+}
+img.user-note{
+    width: 50px;
+}
+.dp-main-menu{
+    display: inline-grid;
+    width: 100%;
+    box-shadow: 0px 4px 20px 0px #ffffff;
+    border-radius: 10px;
+    padding: 10px 0;
+}
 
 
 
