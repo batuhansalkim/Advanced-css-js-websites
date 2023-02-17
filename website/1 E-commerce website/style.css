@@ -365,6 +365,17 @@ body {
   font-weight: 800;
   font-size: 15px;
 }
+#newsletter{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(img/banner/b14.png);
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+
+}
 /*Shop Page*/
 
 
