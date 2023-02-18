@@ -588,19 +588,27 @@ footer .copyright{
   cursor: pointer;
 }
 footer .col{
- position: absolute;
+ position: relative;
 }
-.follow:hover{
+footer .col .follow{
+  width: 100%;
+  text-align: center;
+}
+/* .follow:hover{
   transform: rotate(5deg);
-}
+} */
+
 .follow h4{
+  font-size: 30px;
   text-align: center;
   padding-top: 30px;
 }
 .follow .icon{
   margin: 30px;
+  display: flex;justify-content: space-between;
 }
 .follow .icon i{
+  font-size: 25px;
   transition: all 0.5s;
 }
 .follow .icon i:hover{
