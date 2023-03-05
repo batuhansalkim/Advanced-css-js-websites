@@ -475,7 +475,7 @@ footer .copyright{
 
 @media (max-width:799px) {
   .section-p1{
-    padding: 40px 40px;
+    padding: 20px;
   }
   #navbar{
     display: flex;
@@ -615,6 +615,22 @@ footer .col .follow{
   transform: rotate(360deg);
   transition: all 0.5s;
 }
+}
+
+@media(max-width:477px){
+  #header{
+    padding: 10px 30px;
+  }
+  h21{
+    font-size: 38px;
+  }
+  h2{
+    font-size: 32px;
+  }
+  #hero{
+    padding: 0 20px;
+    background-position:55% ;
+  }
 }
 
 
