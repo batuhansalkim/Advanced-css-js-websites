@@ -474,9 +474,7 @@ footer .copyright{
 }
 
 @media (max-width:799px) {
-  .section-p1{
-    padding: 20px;
-  }
+  
   #navbar{
     display: flex;
     flex-direction: column;
@@ -618,6 +616,9 @@ footer .col .follow{
 }
 
 @media(max-width:477px){
+  .section-p1{
+    padding: 20px;
+  }
   #header{
     padding: 10px 30px;
   }
@@ -631,8 +632,18 @@ footer .col .follow{
     padding: 0 20px;
     background-position:55% ;
   }
+  #feature{
+    justify-content: space-between;
+  }
+  #feature .fe-box{
+    width: 155px;
+    margin: 0 0 15px 0;
+  }
+  #product1 .pro{
+    width: 80%;
+  }
 }
-
+/* 02:19:05 de kaldım */
 
 
 
