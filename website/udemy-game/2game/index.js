@@ -1,18 +1,34 @@
-var numberOfDrumButtons = document.querySelectorAll(".drum").length;
+// var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
-for (var i = 0; i < numberOfDrumButtons; i++) {
+var numberOfDrumButtons = document.querySelectorAll(".drum").length; 
 
-  document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+
+for(var i=0; i<numberOfDrumButtons; i++){
+  document.querySelectorAll(".drum")[i].addEventListener("click",function(){
 
     var buttonInnerHTML = this.innerHTML;
-
+    //BURAYA 2 FONKSİYON ÇAĞIRCAM 
+    //YANİ ŞU DEMEK BEN HER HANGİ BİRİSİNE TIKLADIĞIM ZAMAN
+    //BU 2 FONKSİYON ÇALIŞMIŞ OLACAK.
     makeSound(buttonInnerHTML);
-
     buttonAnimation(buttonInnerHTML);
-
-  });
-
+  })
 }
+
+
+// for (var i = 0; i < numberOfDrumButtons; i++) {
+
+//   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+
+//     var buttonInnerHTML = this.innerHTML;
+
+//     makeSound(buttonInnerHTML);
+
+//     buttonAnimation(buttonInnerHTML);
+
+//   });
+
+// }
 
 document.addEventListener("keypress", function(event) {
 
