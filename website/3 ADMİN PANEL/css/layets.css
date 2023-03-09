@@ -2,17 +2,47 @@
     background: #fff;
     box-shadow: -1px 4px 20px 1px #ea787885;
 }
+
 header.header{
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
 }
 
 .header-left{
     justify-content: space-between;
     align-items: center;
 }
- 
+img.icon{
+    width: 35px;
+    height:35px
+}
+ul.navbar-item{
+    display: flex;  
+}
+.dropdown{
+    position: relative;
+}
+.user-profile-dropdown{
+    margin-left: 20px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link.user{
+    padding: 6px 0;
+    color: #9999;
+    font-size: 25px;
+}
+/* 
+
+.nav-link.user{
+    padding: 6px 0;
+    font-size: 25px;
+    color: #9999;
+    position: relative;
+}
 .logo{
     width: 240px;
     text-align: center;
@@ -27,36 +57,14 @@ a.sidebarCollapse{
     color:#999999;
     font-size: 20px;
 }
-ul.navbar-item{
-    display: flex;
-   
-}
-.dropdown{
-    position: relative;
-   
-}
-.user-profile-dropdown{
-    margin-left: 20px;
-    margin-right: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.nav-link.user{
-    padding: 6px 0;
-    font-size: 25px;
-    color: #9999;
-    position: relative;
-}
-img.icon{
-    width: 25px;
-}
+
+
+
 p.count{
     position: absolute;
     top: 0;
     font-size: 10px;
     color: var(--white-color);
-   /* background: var(--main-grident);*/
     height: 13px;
     width: 13px;
     display: flex;
@@ -110,4 +118,4 @@ img.user-note{
 
 
 
-
+ */
