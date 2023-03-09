@@ -41,6 +41,10 @@ body{
     position: relative;
     width: 200%;
     list-style: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+    
 }
 .navigation ul li:hover{
     background: var(--white);
@@ -56,6 +60,7 @@ body{
     display: flex;
     text-decoration: none;
     color: var(--white);
+    
 }
 
 .navigation ul li a:hover{
@@ -72,7 +77,7 @@ body{
 .navigation ul li a .icon ion-icon{
     font-size: 1.75rem;
 }
-.navigation ul li a .title a{
+.navigation ul li a .title{
     position: relative;
     display: flex;
     padding: 0 10px;
@@ -81,7 +86,6 @@ body{
     text-align: start;
     white-space: nowrap;
 }
-
 
 
 
