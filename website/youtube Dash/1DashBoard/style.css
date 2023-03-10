@@ -36,6 +36,14 @@ body{
     transition: 0.5s ;
     overflow: hidden;
 }
+.navigation.active{
+    width: 80px;
+}
+.navigation.active ul li:hover,
+.navigation.active ul li.hovered
+{
+    background: var(--black1);
+}
 .navigation ul{
     position: absolute;
     top: 0;
@@ -133,6 +141,10 @@ body{
     left: 300px;
     background: var(--white);
     transition:0.5s ;
+}
+.main.active{
+    width: calc(100%-80px);
+    left: 80px;
 }
 .topbar{
     width: 100%;
