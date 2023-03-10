@@ -640,7 +640,49 @@ footer .col .follow{
     margin: 0 0 15px 0;
   }
   #product1 .pro{
+    width: 100%;
+  }
+  #banner{
+    height: 40vh;
+  }
+  #sm-banner .banner-box{
+    height: 40vh;
+  }
+  #sm-banner .banner-box2{
+    margin-top: 20px;
+  }
+  #banner3{
+    padding: 0 20px;
+  }
+  #banner3 .banner-box{
+    width: 100%;
+  }
+  #newsletter{
+    padding: 40px 20px ;
+  }
+  #newsletter .form{
+    width: 100%;
+  }
+  footer .col .follow{
     width: 80%;
+  }
+  footer .col .follow .icon{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+    footer .col .follow .icon i{
+      padding: 10px;
+    }
+  footer .col{
+    width: 80;
+  }
+  footer .install{
+    text-align: start;
+  }
+  footer .copyright{
+    text-align: start;
   }
 }
 /* 02:19:05 de kaldım */
