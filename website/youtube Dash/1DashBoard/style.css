@@ -341,13 +341,20 @@ body{
 }
 .status.pending{
     padding: 2px 4px;
-    background: 3f9ca3f;
+    background: #f9ca3f;
     color: var(--white);
     border-radius: 4px;
-
-
+    font-size: 14px;
+    font-weight: 500;
 }
-
+.status.inprogress{
+    padding: 2px 4px ;
+    background: #1795ce;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 
 
