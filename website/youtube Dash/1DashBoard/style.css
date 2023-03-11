@@ -383,6 +383,7 @@ body{
 .recentCustomers table tr:hover{
     background: var(--blue);
     color: var(--white);
+    cursor: pointer;
 }
 .recentCustomers table tr td{
     padding: 12px 10px;
@@ -392,13 +393,30 @@ body{
     font-weight: 500;
     line-height: 1.2em;
 }
-.recentCustomers table tr td h4 span{
+.recentCustomers table tr td  span{
     font-size: 14px;
     color: var(--black);
 }
+.recentCustomers table tr:hover td h4{
+   color: var(--white); 
+}
 
-
-
+@media (max-width:991px) {
+    .navigation{
+        left: -300px;
+    }
+    .navigation.active{
+        width: 300px;
+        left: 0;
+    }
+    .main{
+        width: 100%;
+        left: 0;
+    }
+    .main.active{
+        left: 300px;
+    }
+}
 
 
 
